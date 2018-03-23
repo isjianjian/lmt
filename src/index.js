@@ -429,7 +429,7 @@ function live_exec(url, o) {       // 执行拉流命令
   });
 
   e.stderr.on('data', (data) => {
-      log.info('stderr: ', data);
+      // log.info('stderr: ', data);
     const live = getlive(e);
     if (data.substring(0, data.indexOf('=')) == 'frame') {
       live.time = new Date().getTime();
