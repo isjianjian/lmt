@@ -1,0 +1,16 @@
+2018-03-23 23:54:51:010 [info] 服务启动  
+2018-03-23 23:54:51:014 [info] ./ -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c\:v copy -c\:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test0.m3u8
+2018-03-23 23:54:51:040 [info] ./ -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c\:v copy -c\:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test1.m3u8
+2018-03-23 23:54:51:142 [info] ./ -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c\:v copy -c\:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test0.m3u8
+2018-03-23 23:54:51:161 [info] ./ -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c\:v copy -c\:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test1.m3u8
+2018-03-23 23:54:51:240 [info] ./ -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c\:v copy -c\:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test0.m3u8
+2018-03-23 23:54:51:263 [info] ./ -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c\:v copy -c\:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test1.m3u8
+2018-03-23 23:54:51:332 [info] ./ -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c\:v copy -c\:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test0.m3u8
+2018-03-23 23:54:51:346 [info] ./ -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c\:v copy -c\:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test1.m3u8
+2018-03-23 23:54:51:387 [info] ./ -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c\:v copy -c\:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test0.m3u8
+2018-03-23 23:54:51:406 [info] ./ -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c\:v copy -c\:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test1.m3u8
+2018-03-23 23:54:51:437 [info] ./ -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c\:v copy -c\:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test0.m3u8
+2018-03-23 23:54:51:457 [info] ./ -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c\:v copy -c\:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test1.m3u8
+2018-03-23 23:54:51:488 [info] 直播已退出
+2018-03-23 23:54:51:503 [info] 直播已退出
+2018-03-23 23:54:52:144 [info] index.......

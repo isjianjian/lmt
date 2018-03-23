@@ -1,0 +1,20 @@
+2018-03-23 23:52:13:791 [info] 服务启动  
+2018-03-23 23:52:13:797 [info] /usr/local/ffmpeg/ffmpeg -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c\:v copy -c\:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test0.m3u8
+2018-03-23 23:52:13:817 [info] /usr/local/ffmpeg/ffmpeg -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c\:v copy -c\:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test1.m3u8
+2018-03-23 23:52:14:031 [info] /usr/local/ffmpeg/ffmpeg -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c\:v copy -c\:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test0.m3u8
+2018-03-23 23:52:14:045 [info] /usr/local/ffmpeg/ffmpeg -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c\:v copy -c\:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test1.m3u8
+2018-03-23 23:52:14:109 [info] /usr/local/ffmpeg/ffmpeg -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c\:v copy -c\:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test1.m3u8
+2018-03-23 23:52:14:122 [info] /usr/local/ffmpeg/ffmpeg -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c\:v copy -c\:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test0.m3u8
+2018-03-23 23:52:14:157 [info] /usr/local/ffmpeg/ffmpeg -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c\:v copy -c\:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test1.m3u8
+2018-03-23 23:52:14:174 [info] /usr/local/ffmpeg/ffmpeg -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c\:v copy -c\:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test0.m3u8
+2018-03-23 23:52:14:207 [info] /usr/local/ffmpeg/ffmpeg -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c\:v copy -c\:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test1.m3u8
+2018-03-23 23:52:14:252 [info] /usr/local/ffmpeg/ffmpeg -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c\:v copy -c\:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test0.m3u8
+2018-03-23 23:52:14:269 [info] /usr/local/ffmpeg/ffmpeg -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c\:v copy -c\:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test1.m3u8
+2018-03-23 23:52:14:322 [info] /usr/local/ffmpeg/ffmpeg -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c\:v copy -c\:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test0.m3u8
+2018-03-23 23:52:14:337 [info] 直播已退出
+2018-03-23 23:52:14:374 [info] 直播已退出
+2018-03-23 23:52:15:205 [info] index.......
+2018-03-23 23:52:33:852 [info] 连接出错...
+2018-03-23 23:52:33:853 [info] 连接超时...
+2018-03-23 23:52:54:713 [info] 连接出错...
+2018-03-23 23:52:54:714 [info] 连接超时...

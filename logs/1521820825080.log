@@ -1,0 +1,194 @@
+2018-03-24 00:00:25:805 [info] 服务启动  
+2018-03-24 00:00:25:808 [info] ffmpeg.exe -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c:v copy -c:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test0.m3u8
+2018-03-24 00:00:25:828 [info] ffmpeg.exe -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c:v copy -c:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test1.m3u8
+2018-03-24 00:00:27:258 [info] index.......
+2018-03-24 00:00:27:975 [info] stderr:  FFmpeg version 0.5, Copyright (c) 2000-2009 Fabrice Bellard, et al.
+  configuration: --enable-gpl --enable-postproc --enable-swscale --enable-avfilter --enable-avfilter-lavf --enable-pthreads --enable-avisynth --enable-libfaac --enable-libfaad --enable-libmp3lame --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libxvid --enable-libx264 --enable-memalign-hack
+  libavutil     49.15. 0 / 49.15. 0
+  libavcodec    52.20. 0 / 52.20. 0
+  libavformat   52.31. 0 / 52.31. 0
+  libavdevice   52. 1. 0 / 52. 1. 0
+  libavfilter    0. 4. 0 /  0. 4. 0
+  libswscale     0. 7. 1 /  0. 7. 1
+  libpostproc   51. 2. 0 / 51. 2. 0
+  built on Mar 16 2009 16:09:18, gcc: 4.2.4 [Sherpya]
+http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8: Unknown format
+
+2018-03-24 00:00:27:977 [info] stderr:  FFmpeg version 0.5, Copyright (c) 2000-2009 Fabrice Bellard, et al.
+  configuration: --enable-gpl --enable-postproc --enable-swscale --enable-avfilter --enable-avfilter-lavf --enable-pthreads --enable-avisynth --enable-libfaac --enable-libfaad --enable-libmp3lame --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libxvid --enable-libx264 --enable-memalign-hack
+  libavutil     49.15. 0 / 49.15. 0
+  libavcodec    52.20. 0 / 52.20. 0
+  libavformat   52.31. 0 / 52.31. 0
+  libavdevice   52. 1. 0 / 52. 1. 0
+  libavfilter    0. 4. 0 /  0. 4. 0
+  libswscale     0. 7. 1 /  0. 7. 1
+  libpostproc   51. 2. 0 / 51. 2. 0
+  built on Mar 16 2009 16:09:18, gcc: 4.2.4 [Sherpya]
+http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8: Unknown format
+
+2018-03-24 00:00:27:988 [info] ffmpeg.exe -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c:v copy -c:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test0.m3u8
+2018-03-24 00:00:28:000 [info] ffmpeg.exe -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c:v copy -c:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test1.m3u8
+2018-03-24 00:00:29:554 [info] stderr:  FFmpeg version 0.5, Copyright (c) 2000-2009 Fabrice Bellard, et al.
+  configuration: --enable-gpl --enable-postproc --enable-swscale --enable-avfilter --enable-avfilter-lavf --enable-pthreads --enable-avisynth --enable-libfaac --enable-libfaad --enable-libmp3lame --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libxvid --enable-libx264 --enable-memalign-hack
+  libavutil     49.15. 0 / 49.15. 0
+  libavcodec    52.20. 0 / 52.20. 0
+  libavformat   52.31. 0 / 52.31. 0
+  libavdevice   52. 1. 0 / 52. 1. 0
+  libavfilter    0. 4. 0 /  0. 4. 0
+  libswscale     0. 7. 1 /  0. 7. 1
+  libpostproc   51. 2. 0 / 51. 2. 0
+  built on Mar 16 2009 16:09:18, gcc: 4.2.4 [Sherpya]
+http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8: Unknown format
+
+2018-03-24 00:00:29:561 [info] stderr:  FFmpeg version 0.5, Copyright (c) 2000-2009 Fabrice Bellard, et al.
+  configuration: --enable-gpl --enable-postproc --enable-swscale --enable-avfilter --enable-avfilter-lavf --enable-pthreads --enable-avisynth --enable-libfaac --enable-libfaad --enable-libmp3lame --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libxvid --enable-libx264 --enable-memalign-hack
+  libavutil     49.15. 0 / 49.15. 0
+  libavcodec    52.20. 0 / 52.20. 0
+  libavformat   52.31. 0 / 52.31. 0
+  libavdevice   52. 1. 0 / 52. 1. 0
+  libavfilter    0. 4. 0 /  0. 4. 0
+  libswscale     0. 7. 1 /  0. 7. 1
+  libpostproc   51. 2. 0 / 51. 2. 0
+  built on Mar 16 2009 16:09:18, gcc: 4.2.4 [Sherpya]
+http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8: Unknown format
+
+2018-03-24 00:00:29:566 [info] ffmpeg.exe -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c:v copy -c:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test0.m3u8
+2018-03-24 00:00:29:582 [info] ffmpeg.exe -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c:v copy -c:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test1.m3u8
+2018-03-24 00:00:31:156 [info] stderr:  FFmpeg version 0.5, Copyright (c) 2000-2009 Fabrice Bellard, et al.
+  configuration: --enable-gpl --enable-postproc --enable-swscale --enable-avfilter --enable-avfilter-lavf --enable-pthreads --enable-avisynth --enable-libfaac --enable-libfaad --enable-libmp3lame --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libxvid --enable-libx264 --enable-memalign-hack
+  libavutil     49.15. 0 / 49.15. 0
+  libavcodec    52.20. 0 / 52.20. 0
+  libavformat   52.31. 0 / 52.31. 0
+  libavdevice   52. 1. 0 / 52. 1. 0
+  libavfilter    0. 4. 0 /  0. 4. 0
+  libswscale     0. 7. 1 /  0. 7. 1
+  libpostproc   51. 2. 0 / 51. 2. 0
+  built on Mar 16 2009 16:09:18, gcc: 4.2.4 [Sherpya]
+http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8: Unknown format
+
+2018-03-24 00:00:31:160 [info] stderr:  FFmpeg version 0.5, Copyright (c) 2000-2009 Fabrice Bellard, et al.
+  configuration: --enable-gpl --enable-postproc --enable-swscale --enable-avfilter --enable-avfilter-lavf --enable-pthreads --enable-avisynth --enable-libfaac --enable-libfaad --enable-libmp3lame --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libxvid --enable-libx264 --enable-memalign-hack
+  libavutil     49.15. 0 / 49.15. 0
+  libavcodec    52.20. 0 / 52.20. 0
+  libavformat   52.31. 0 / 52.31. 0
+  libavdevice   52. 1. 0 / 52. 1. 0
+  libavfilter    0. 4. 0 /  0. 4. 0
+  libswscale     0. 7. 1 /  0. 7. 1
+  libpostproc   51. 2. 0 / 51. 2. 0
+  built on Mar 16 2009 16:09:18, gcc: 4.2.4 [Sherpya]
+http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8: Unknown format
+
+2018-03-24 00:00:31:166 [info] ffmpeg.exe -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c:v copy -c:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test0.m3u8
+2018-03-24 00:00:31:182 [info] ffmpeg.exe -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c:v copy -c:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test1.m3u8
+2018-03-24 00:00:33:341 [info] stderr:  FFmpeg version 0.5, Copyright (c) 2000-2009 Fabrice Bellard, et al.
+  configuration: --enable-gpl --enable-postproc --enable-swscale --enable-avfilter --enable-avfilter-lavf --enable-pthreads --enable-avisynth --enable-libfaac --enable-libfaad --enable-libmp3lame --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libxvid --enable-libx264 --enable-memalign-hack
+  libavutil     49.15. 0 / 49.15. 0
+  libavcodec    52.20. 0 / 52.20. 0
+  libavformat   52.31. 0 / 52.31. 0
+  libavdevice   52. 1. 0 / 52. 1. 0
+  libavfilter    0. 4. 0 /  0. 4. 0
+  libswscale     0. 7. 1 /  0. 7. 1
+  libpostproc   51. 2. 0 / 51. 2. 0
+  built on Mar 16 2009 16:09:18, gcc: 4.2.4 [Sherpya]
+http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8: Unknown format
+
+2018-03-24 00:00:33:348 [info] ffmpeg.exe -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c:v copy -c:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test0.m3u8
+2018-03-24 00:00:33:360 [info] stderr:  FFmpeg version 0.5, Copyright (c) 2000-2009 Fabrice Bellard, et al.
+  configuration: --enable-gpl --enable-postproc --enable-swscale --enable-avfilter --enable-avfilter-lavf --enable-pthreads --enable-avisynth --enable-libfaac --enable-libfaad --enable-libmp3lame --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libxvid --enable-libx264 --enable-memalign-hack
+  libavutil     49.15. 0 / 49.15. 0
+  libavcodec    52.20. 0 / 52.20. 0
+  libavformat   52.31. 0 / 52.31. 0
+  libavdevice   52. 1. 0 / 52. 1. 0
+  libavfilter    0. 4. 0 /  0. 4. 0
+  libswscale     0. 7. 1 /  0. 7. 1
+  libpostproc   51. 2. 0 / 51. 2. 0
+  built on Mar 16 2009 16:09:18, gcc: 4.2.4 [Sherpya]
+http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8: Unknown format
+
+2018-03-24 00:00:33:368 [info] ffmpeg.exe -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c:v copy -c:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test1.m3u8
+2018-03-24 00:00:35:014 [info] stderr:  FFmpeg version 0.5, Copyright (c) 2000-2009 Fabrice Bellard, et al.
+  configuration: --enable-gpl --enable-postproc --enable-swscale --enable-avfilter --enable-avfilter-lavf --enable-pthreads --enable-avisynth --enable-libfaac --enable-libfaad --enable-libmp3lame --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libxvid --enable-libx264 --enable-memalign-hack
+  libavutil     49.15. 0 / 49.15. 0
+  libavcodec    52.20. 0 / 52.20. 0
+  libavformat   52.31. 0 / 52.31. 0
+  libavdevice   52. 1. 0 / 52. 1. 0
+  libavfilter    0. 4. 0 /  0. 4. 0
+  libswscale     0. 7. 1 /  0. 7. 1
+  libpostproc   51. 2. 0 / 51. 2. 0
+  built on Mar 16 2009 16:09:18, gcc: 4.2.4 [Sherpya]
+http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8: Unknown format
+
+2018-03-24 00:00:35:015 [info] stderr:  FFmpeg version 0.5, Copyright (c) 2000-2009 Fabrice Bellard, et al.
+  configuration: --enable-gpl --enable-postproc --enable-swscale --enable-avfilter --enable-avfilter-lavf --enable-pthreads --enable-avisynth --enable-libfaac --enable-libfaad --enable-libmp3lame --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libxvid --enable-libx264 --enable-memalign-hack
+  libavutil     49.15. 0 / 49.15. 0
+  libavcodec    52.20. 0 / 52.20. 0
+  libavformat   52.31. 0 / 52.31. 0
+  libavdevice   52. 1. 0 / 52. 1. 0
+  libavfilter    0. 4. 0 /  0. 4. 0
+  libswscale     0. 7. 1 /  0. 7. 1
+  libpostproc   51. 2. 0 / 51. 2. 0
+  built on Mar 16 2009 16:09:18, gcc: 4.2.4 [Sherpya]
+http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8: Unknown format
+
+2018-03-24 00:00:35:024 [info] ffmpeg.exe -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c:v copy -c:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test0.m3u8
+2018-03-24 00:00:35:036 [info] ffmpeg.exe -re -i  http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8 -c:v copy -c:a copy -q:v 2  -s 720x576 -hls_wrap 10 -f hls ./live/test1.m3u8
+2018-03-24 00:00:36:619 [info] stderr:  FFmpeg version 0.5, Copyright (c) 2000-2009 Fabrice Bellard, et al.
+  configuration: --enable-gpl --enable-postproc --enable-swscale --enable-avfilter --enable-avfilter-lavf --enable-pthreads --enable-avisynth --enable-libfaac --enable-libfaad --enable-libmp3lame --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libxvid --enable-libx264 --enable-memalign-hack
+  libavutil     49.15. 0 / 49.15. 0
+  libavcodec    52.20. 0 / 52.20. 0
+  libavformat   52.31. 0 / 52.31. 0
+  libavdevice   52. 1. 0 / 52. 1. 0
+  libavfilter    0. 4. 0 /  0. 4. 0
+  libswscale     0. 7. 1 /  0. 7. 1
+  libpostproc   51. 2. 0 / 51. 2. 0
+  built on Mar 16 2009 16:09:18, gcc: 4.2.4 [Sherpya]
+http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8: Unknown format
+
+2018-03-24 00:00:36:622 [info] stderr:  FFmpeg version 0.5, Copyright (c) 2000-2009 Fabrice Bellard, et al.
+  configuration: --enable-gpl --enable-postproc --enable-swscale --enable-avfilter --enable-avfilter-lavf --enable-pthreads --enable-avisynth --enable-libfaac --enable-libfaad --enable-libmp3lame --enable-libspeex --enable-libtheora --enable-libvorbis --enable-libxvid --enable-libx264 --enable-memalign-hack
+  libavutil     49.15. 0 / 49.15. 0
+  libavcodec    52.20. 0 / 52.20. 0
+  libavformat   52.31. 0 / 52.31. 0
+  libavdevice   52. 1. 0 / 52. 1. 0
+  libavfilter    0. 4. 0 /  0. 4. 0
+  libswscale     0. 7. 1 /  0. 7. 1
+  libpostproc   51. 2. 0 / 51. 2. 0
+  built on Mar 16 2009 16:09:18, gcc: 4.2.4 [Sherpya]
+http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8: Unknown format
+
+2018-03-24 00:00:36:631 [info] 直播已退出
+2018-03-24 00:00:36:638 [info] 直播已退出
+2018-03-24 00:00:45:857 [info] 连接出错...
+2018-03-24 00:00:45:858 [info] 连接超时...
+2018-03-24 00:01:07:154 [info] 连接出错...
+2018-03-24 00:01:07:155 [info] 连接超时...
+2018-03-24 00:01:29:528 [info] 连接出错...
+2018-03-24 00:01:29:528 [info] 连接超时...
+2018-03-24 00:01:54:531 [info] 连接出错...
+2018-03-24 00:01:54:531 [info] 连接超时...
+2018-03-24 00:02:19:532 [info] 连接出错...
+2018-03-24 00:02:19:532 [info] 连接超时...
+2018-03-24 00:02:44:535 [info] 连接出错...
+2018-03-24 00:02:44:535 [info] 连接超时...
+2018-03-24 00:03:09:538 [info] 连接出错...
+2018-03-24 00:03:09:538 [info] 连接超时...
+2018-03-24 00:03:34:540 [info] 连接出错...
+2018-03-24 00:03:34:540 [info] 连接超时...
+2018-03-24 00:03:59:542 [info] 连接出错...
+2018-03-24 00:03:59:542 [info] 连接超时...
+2018-03-24 00:04:24:545 [info] 连接出错...
+2018-03-24 00:04:24:546 [info] 连接超时...
+2018-03-24 00:04:49:547 [info] 连接出错...
+2018-03-24 00:04:49:547 [info] 连接超时...
+2018-03-24 00:05:14:548 [info] 连接出错...
+2018-03-24 00:05:14:548 [info] 连接超时...
+2018-03-24 00:05:39:550 [info] 连接出错...
+2018-03-24 00:05:39:550 [info] 连接超时...
+2018-03-24 00:06:04:551 [info] 连接出错...
+2018-03-24 00:06:04:551 [info] 连接超时...
+2018-03-24 00:06:29:554 [info] 连接出错...
+2018-03-24 00:06:29:554 [info] 连接超时...
+2018-03-24 00:06:54:558 [info] 连接出错...
+2018-03-24 00:06:54:558 [info] 连接超时...
+2018-03-24 00:07:19:560 [info] 连接出错...
+2018-03-24 00:07:19:560 [info] 连接超时...
