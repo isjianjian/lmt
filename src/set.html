@@ -24,12 +24,19 @@
                 <span slot="prepend">媒体存储路径</span>
             </i-input>
         </div>
+    <br>
+    <div class="ivu-form-item-content" style="margin-left: 80px;margin-right: 80px;" label="重试次数">
+        <i-input v-model="conf.port">
+            <span slot="prepend">流媒体端口号</span>
+        </i-input>
+    </div>
         <br>
         <div class="ivu-form-item-content" style="margin-left: 80px;margin-right: 80px;" label="重试次数">
             <i-input v-model="conf.retry">
-                <span slot="prepend">重试次数&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <span slot="prepend">出错重试次数</span>
             </i-input>
         </div>
+
         <br>
         <div class="ivu-form-item-content" style="margin-left: 80px">
             <i-button type="primary" @click="update" >保存更改</i-button>

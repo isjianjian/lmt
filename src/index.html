@@ -15,7 +15,7 @@
   <Alert v-if="status == 0" show-icon>初始化完成等待连接</Alert>
   <Alert v-if="status == 1" type="success" show-icon>已连接到主服务器</Alert>
   <Alert v-if="status == 2" type="warning" show-icon>与主服务器断开连接</Alert>
-  <Alert v-if="status == 3" type="error" show-icon>连接主服务器出错</Alert>
+  <Alert v-if="status == 3" type="error" show-icon>连接主服务器出错 请检查‘设置‘中的主服务器地址</Alert>
   <i-table :loading="loading"  height="700" :columns="columns1" :data="lives"></i-table>
 </div>
 <script type="text/javascript" src="renderer.js"></script>
