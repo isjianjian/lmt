@@ -144,7 +144,7 @@ log.transports.file.maxSize = 5 * 1024 * 1024;
 // you can find more information at
 // https://nodejs.org/api/fs.html#fs_fs_createwritestream_path_options
 log.transports.file.streamConfig = {flags: 'w'};
-var log_dir = CONF.dir + '/logs/'
+var log_dir = __dirname  + '/logs/'
 fs.exists(log_dir,function (exists) {
     if (!exists){
         fs.mkdir(log_dir)
@@ -183,9 +183,15 @@ function initMenu() {
             label: '选项',
             submenu: [
                 {
+                    label: '文件同步',
+                    click() {
+                        openSyn()
+                    },
+                },
+                {
                     label: '查看日志',
                     click() {
-                        log.info("打开文件", shell.openItem(CONF.dir + "/logs"))
+                        log.info("打开文件", shell.openItem(__dirname +  "/logs"))
                     },
                 },
                 {
@@ -252,6 +258,11 @@ function createWindow() {
                 fs.mkdir(arg.dir)
             }
         })
+        fs.exists(arg.dir + "/upload",function (exists) {
+            if (!exists){
+                fs.mkdir(arg.dir + "/upload")
+            }
+        })
         if (CONF.port != arg.port || CONF.dir != arg.dir) {
             updateNginx(arg)
         }
@@ -309,6 +320,7 @@ function createWindow() {
 // Some APIs can only be used after this event occurs.
 app.on('ready', () => {
     initMenu();
+    startSyn()
     tray = new Tray('img/live.png');
     tray.on('click', () => {
         if (mainWindow == null) {
@@ -358,13 +370,13 @@ app.on('activate', () => {
 // 启动流媒体服务器
 function start_live_server() {
     log.info('流媒体服务启动');
+    // openSyn()
     stopAll()
-
     startNginx()
-    for (let i = 0; i < 1; i++) {
-        addLive('http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8', `live/test${i}.m3u8`, i, i);
-    }
-    const socket = io.connect('http://192.168.2.170:8001');
+    // for (let i = 0; i < 1; i++) {
+    //     addLive('http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8', `live/test${i}.m3u8`, i, i);
+    // }
+    const socket = io.connect('http://'+ CONF.server_ip +':8001');
     socket.on('connect', (data) => {
         socket.emit('getLive');
         log.info('已连接到主服务器');
@@ -503,11 +515,9 @@ function startNginx() {
     let com = "nginx.exe"
     const e = exec(com);
     e.stdout.on('data', (data) => {
-        alert("启动nginx失败 " + data)
         console.log(data)
     });
     e.stderr.on('data', (data) => {
-        alert("启动nginx失败 " + data)
         console.log(data)
     });
 }
@@ -580,13 +590,24 @@ function sendLive() {
 
 
 function openSet() {
-    setWin = new BrowserWindow({parent: mainWindow});
+    setWin = new BrowserWindow({parent: mainWindow,autoHideMenuBar:true});
     setWin.loadURL(url.format({
         pathname: path.join(__dirname, 'set.html'),
         protocol: 'file:',
         slashes: true,
     }));
     setWin.show();
+}
+
+function openSyn() {
+    var synWin = new BrowserWindow({parent: mainWindow,autoHideMenuBar:true, width: 800,
+        height: 800});
+    synWin.loadURL(url.format({
+        pathname: path.join(__dirname, 'syn.html'),
+        protocol: 'file:',
+        slashes: true,
+    }));
+    synWin.show();
 }
 
 function updateNginx(data) {
@@ -596,6 +617,18 @@ function updateNginx(data) {
     var conf = old.replace("@DIR", data.dir).replace("@PORT", data.port)
     console.log("conf", conf)
     fs.writeFile("conf/nginx.conf", conf)
+}
+
+
+function startSyn() {
+    let com = "syncthing.exe"
+    const e = exec(com);
+    e.stdout.on('data', (data) => {
+        console.log(data)
+    });
+    e.stderr.on('data', (data) => {
+        console.log(data)
+    });
 }
 
 
